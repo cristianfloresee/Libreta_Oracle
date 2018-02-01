@@ -39,7 +39,7 @@ Instalaremos Apache Tomcat.
 <https://www.toadworld.com/platforms/oracle/w/wiki/11419.getting-started-with-oracle-rest-data-services>
 
 
-## Segunda Forma (Recomendada):
+## Segunda Forma - SQL Developer (Recomendada):
 
 ORDS se incluye con las instalaciones de Oracle Database y Oracle SQL Developer.
 
