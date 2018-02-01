@@ -1,10 +1,10 @@
 <h1 align="center">
-    Configuración e Instalación de Oracle Rest Data Service
+    Instalación y Configuración de Oracle Rest Data Service
 </h1>
 
 
 
-facilita el desarrollo de interfaces REST modernas para datos relacionales en Oracle Database, Oracle Database 12c JSON Document Store y Oracle NoSQL Database. 
+ORDS facilita el desarrollo de interfaces REST modernas para datos relacionales en Oracle Database, Oracle Database 12c JSON Document Store y Oracle NoSQL Database. 
 
 
 https://4.bp.blogspot.com/-SB3FpGzHueg/Vz45LQ_lLdI/AAAAAAAAuJ4/ExVTxOPAo5ITZcl4DG-uIwytbX5a9ACVwCLcB/s1600/Untitled.png
@@ -20,14 +20,20 @@ El papel de ORDS es fundamental, ya que permitirá tener una capa REST de la ló
 
 Aunque la creación de servicios REST con ORDS se puede hacer por línea de comandos, si lo conectamos desde SQL Developer podemos crear los servicios de una manera muy cómoda.
 
-# 2. Descargue e instale Oracle Rest Data Service
+# 2. Descarga e Instalación de Oracle Rest Data Service
 
 Existen dos formas de instalar el ORDS:
 
 ## Primera Forma:
 
-+ Descargar ORDS:  
++ Descargue ORDS:  
 <http://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html>
+
++ Estando en el directorio del archivo ZIP extraído, ejecute el siguiente comando para instalar el ORDS:  
+```
+java -jar ords.war
+```
++ Luego proporcione la información de la Base de Datos incluyendo un nombre de usuario y contraseña de SYSDBA. Esto es necesario para que ORDS instale el esquema necesario y los paquetes PL/SQL.
 
 Instalaremos Apache Tomcat.
 <https://www.toadworld.com/platforms/oracle/w/wiki/11419.getting-started-with-oracle-rest-data-services>
@@ -55,6 +61,22 @@ ORDS se incluye con las instalaciones de Oracle Database y Oracle SQL Developer.
 
 <img src="http://res.cloudinary.com/dwj4kbnam/image/upload/v1517442943/sshot-2_mais6e.png">
 
-# Otras características
++ Seleccionamos la ubicación del ORDS y la ruta donde se guardará la configuración (ruta de configuración opcional).  
+
+<img src="http://res.cloudinary.com/dwj4kbnam/image/upload/v1517448934/sshot-3_m62sdw.png">
+
+# 3. Creación de Servicios de Datos REST desde SQL Developer
+
++ Para crear una consulta simple basada en un esquema y una tabla existentes, primero debe habilitar el esquema para los servicios REST y luego habilitar la tabla.
+
++ Para habilitar el esquema, establezca una conexión con SQL Developer. Haga clic con el botón derecho sobre el esquema y seleccione Servicios REST, habilite los servicios REST.
+
+# 4. Otras características
 
 + Es compatible con Weblogic, Tomcat, Glassfish y también como una aplicación independiente que ejecuta Jetty en modo incrustado.
+
+
+
+# 5. Referencias
+
+<https://www.toadworld.com/platforms/oracle/w/wiki/11419.getting-started-with-oracle-rest-data-services>
