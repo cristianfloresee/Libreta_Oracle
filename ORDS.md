@@ -1,17 +1,16 @@
-facilita el desarrollo de interfaces REST modernas para datos relacionales en Oracle Database, Oracle Database 12c JSON Document Store y Oracle NoSQL Database. 
-Una aplicación de Java de nivel medio, ORDS asigna verbos HTTP (S) (GET, POST, PUT, DELETE, etc.) a las transacciones de la base de datos y devuelve los resultados formateados con JSON.
+<h1 align="center">
+    Configuración e Instalación de Oracle Rest Data Service
+</h1>
 
-+ ORDS se incluye con las instalaciones de Oracle Database y Oracle SQL Developer. Es compatible con Weblogic, Tomcat, Glassfish y también como una aplicación independiente que ejecuta Jetty en modo incrustado.
+
+
+facilita el desarrollo de interfaces REST modernas para datos relacionales en Oracle Database, Oracle Database 12c JSON Document Store y Oracle NoSQL Database. 
+
 
 https://4.bp.blogspot.com/-SB3FpGzHueg/Vz45LQ_lLdI/AAAAAAAAuJ4/ExVTxOPAo5ITZcl4DG-uIwytbX5a9ACVwCLcB/s1600/Untitled.png
 
 
 1. Instale el servidor de Apacha Tomcat.
-
-* Servidores Soportados por ORDS:
-    + Oracle WebLogic
-    + GlassFish Server
-    + Apache Tomcat
 
 <http://tomcat.apache.org/download-70.cgi>
 
@@ -36,6 +35,8 @@ Instalaremos Apache Tomcat.
 
 ## Segunda Forma (Recomendada):
 
+ORDS se incluye con las instalaciones de Oracle Database y Oracle SQL Developer.
+
 + Descargar Oracle SQL Developer:  
 
 <http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html>
@@ -50,4 +51,10 @@ Instalaremos Apache Tomcat.
 
 + Realizamos la Conexión a la Base de Datos:  
 
++ Instalamos ORDS a través de Oracle SQL Developer:  
+
 <img src="http://res.cloudinary.com/dwj4kbnam/image/upload/v1517442943/sshot-2_mais6e.png">
+
+# Otras características
+
++ Es compatible con Weblogic, Tomcat, Glassfish y también como una aplicación independiente que ejecuta Jetty en modo incrustado.

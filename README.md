@@ -29,7 +29,7 @@ Así que en nuestro caso que esta variable ya existía con unas instrucciones de
 *Importante: Aunque se tenga Windows de 64bit se debe descargar el cliente de 32bit*
 
 Debe tener el Cliente de Oracle antes de instalar el Toad.
-http://www.telecomhall.com/Data/Sites/3/siteimages/tips/053/tips_053_i.jpg
+
 
 
 ## Configuración 
@@ -52,7 +52,7 @@ Herramientas de Bases de Datos
 
 ## Referencias
 
-Manual de Instalación de Oracle Instant Client y Toad:  
++  Manual de Instalación de Oracle Instant Client y Toad:  
 <http://www.telecomhall.com/es/usando-toad-como-la-mejor-herramienta-libre-de-gestion-de-base-de-datos.aspx>
 
 Oracle JET
