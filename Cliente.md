@@ -2,7 +2,9 @@
     Instalación del Cliente de Oracle 11g
 </h1>
 
-# Instalación del Cliente
+ A continuación veremos como configurar el Oracle Instant Client, evitando la instalación de una base de datos Oracle.
+
+# 1. Instalación del Cliente
 
 Existen dos formas de instalar el ORDS:
 
@@ -30,3 +32,7 @@ Si esta variable no existe, simplemente haga clic en el botón 'Nuevo' (1), el g
 
 Así que en nuestro caso que esta variable ya existía con unas instrucciones de Windows, lo que vamos a hacer es modificarlo mediante la inserción de un 'punto y coma' y nuestra nueva instrucción al final. En este caso, a introducir en la variable PATH la ruta o ubicación de nuestro cliente instantánea: 'C:\OracleInstantClient\'. Luego, seleccione la variable PATH (2) y haga clic en el botón 'Editar' (3).
 
+# 2. Instalación de ODAC
+
+
+# 3. Referencias

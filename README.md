@@ -20,6 +20,7 @@ Debe tener el Cliente de Oracle antes de instalar el Toad.
 Siga los pasos del 
 [Manual de Instalación y Configuración de Toad](https://github.com/cristianfloresee/Libreta_Oracle/blob/master/Toad.md)
 
+## 3. Instalación de Oracle REST Data Service
 
 
 ## Configuración 
@@ -42,8 +43,6 @@ Herramientas de Bases de Datos
 
 ## Referencias
 
-+  Manual de Instalación de Oracle Instant Client y Toad:  
++  Ejemplo con Toad Freeware y Oracle Instant Client:  
 <http://www.telecomhall.com/es/usando-toad-como-la-mejor-herramienta-libre-de-gestion-de-base-de-datos.aspx>
 
-Oracle JET
-toolkit JavaScript de Oracle para desarrollo Front e Híbrido.
